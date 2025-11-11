@@ -47,7 +47,7 @@ const moreProjects = [
 const professionalProjects = [
   {
     title: "GAN Texture Gneration",
-    company: "A Company Associated With Roblox",
+    company: "An Individual",
     description:
       "Created a architecture on top of SinGAN and TilingGAN architecture, tuning it to work well on texture generation for games. Which can be attained by single traning image",
     technologies: ["Torch", "CUDA"],
@@ -451,7 +451,7 @@ export default function Portfolio() {
           >
             <TypeAnimation
               className="bg-gradient-to-r from-white to-purple-700 transition-transform hover:scale-110 cursor-default"
-              sequence={["Hello Everyone", 1000, "Hello Visitor", 2000, "Hello Friend!", 3000]}
+              sequence={["Hello Everyone", 1000, "Hello Visitor", 2000, "Hello!", 3000]}
               wrapper="span"
               speed={50}
               style={{
@@ -476,7 +476,7 @@ export default function Portfolio() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            I am an aspiring Software Engineer and AI Integration Expert, aiming to provide innovative AI solutions and
+            I am an AI/ML Developer aiming to provide innovative AI solutions and
             expand my services to a wider audience.
           </motion.p>
 
@@ -586,12 +586,10 @@ export default function Portfolio() {
             >
               <h2 className="text-3xl md:text-4xl font-bold text-purple-400 mb-6">About Me</h2>
               <p className="text-gray-300 leading-relaxed">
-                I am Ratiq Ahamed a 3rd year student at Easwari Engineering College, Chennai pursuing a B.Tech in Artificial Intelligence and Data Science.As a digital craftsman, I blend the precision of code with the artistry of design. With over 1 years of
-                experience in creating digital experiences, I prioritize both functionality and aesthetics.
+I’m Ratiq Ahamed, a final-year B.Tech Artificial Intelligence and Data Science student at Easwari Engineering College. With nearly a year of industry experience, I focus on building practical AI and ML solutions while maintaining a strong foundation in clean, reliable development.
               </p>
               <p className="mt-4 text-gray-300 leading-relaxed">
-                My expertise spans AI/ML and front-end development with stunning Gen AI inegration. I believe in
-                creating digital solutions that not only solve problems but also inspire and engage users.
+                I specialize in AI and Machine learning, working across the entire lifecycle of a project from building models to integrating them into applications and deploying complete ML solutions.
               </p>
 
               <motion.div
@@ -601,7 +599,7 @@ export default function Portfolio() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                {["React", "Framer Motion", "Tailwind CSS", "LangChain", "MongoDB", "Machine Learning"].map(
+                {["Machine Learning", "Gen AI", "Deployment", "Snowflake", "Databases"].map(
                   (skill, index) => (
                     <motion.span
                       key={index}
@@ -659,9 +657,16 @@ export default function Portfolio() {
           <div className="max-w-4xl mx-auto">
             {[
               {
-                title: "Machine Learning Engineer",
+                title: "Machine Learning Role",
+                company: "TVS Next",
+                period: "April 2025 - Present",
+                description:
+                  "At TVS Next, I work on applied AI, ML and RL projects, developing models for real client needs and integrating them into internal systems. I also contribute to optimizing supporting workflows and ensuring these solutions are deployment-ready.",
+              },
+              {
+                title: "Machine Learning Role",
                 company: "ISMO BIO-PHOTONICS Pvt Ltd, IITMR",
-                period: "july 2024 - August 2024",
+                period: "July 2024 - August 2024",
                 description:
                   "Led development of enterprise applications using React and Node.js. Implemented AI-driven solutions that improved efficiency by 40%.",
               },
@@ -671,13 +676,6 @@ export default function Portfolio() {
                 period: "March 2024 - May 2024",
                 description:
                   "We developed multiple data analysis projects using python and machine learning on real world data",
-              },
-              {
-                title: "Data Science",
-                company: "Prodigy Infosoft Pvt Ltd",
-                period: "Feb 2024 - March 2024",
-                description:
-                  "We developed multiple data analysis projects using python and machine learning on real world data to backend development using modern technologies.",
               },
             ].map((experience, index) => (
               <motion.div
@@ -1257,11 +1255,6 @@ export default function Portfolio() {
                     name: "LinkedIn",
                     url: "https://www.linkedin.com/in/ratiq-ahamed-mr-8402a1342",
                     icon: "M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z",
-                  },
-                  {
-                    name: "Twitter",
-                    url: "https://twitter.com",
-                    icon: "M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z",
                   },
                   {
                     name: "LeetCode",
